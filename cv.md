@@ -1,5 +1,5 @@
-##Anastasiia Fediarova
-####Junior Frontend Developer
+## Anastasiia Fediarova
+#### Junior Frontend Developer
 
 ---
 
