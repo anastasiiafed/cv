@@ -23,29 +23,35 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="./site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="header">
         <nav>
-          <ul>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Education</li>
-            <li>Experience</li>
-            <li>Languages</li>
-            <li>Contacts</li>
+          <ul class="header_menu">
+            <li class="header_menu_item"><a href="#skills">Skills</a></li>
+            <li class="header_menu_item">Projects</li>
+            <li class="header_menu_item">Education</li>
+            <li class="header_menu_item">Experience</li>
+            <li class="header_menu_item">Languages</li>
+            <li class="header_menu_item">Contacts</li>
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="main_wrapper">
         <section class="about_me">
           <h2>Anastasiia Fediarova</h2>
           <h1>Front-End Developer</h1>
           <img src="./IMG_8733.JPG" alt="photo" class="about_img" />
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
           <ul>
             Hard skills
             <li>HTML</li>
