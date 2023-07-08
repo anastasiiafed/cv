@@ -27,6 +27,7 @@ body {
   justify-content: center;
   gap: 40px;
   align-items: center;
+  margin: auto;
 }
 
 .header_menu_item {
@@ -61,7 +62,8 @@ body {
 .projects:hover,
 .education:hover,
 .languages:hover,
-.code:hover {
+.code:hover,
+.contacts:hover {
   border-radius: 35px;
   transition: 1s;
   cursor: pointer;
@@ -307,8 +309,28 @@ p {
 }
 .contacts i {
   margin: 10px;
+  font-size: 2.5rem;
 }
 .contacts a:hover {
   color: #ffff00;
   transition: 0.5s;
+}
+footer {
+  margin: auto;
+  width: 100%;
+  background-color: #5700b2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+footer img {
+  width: 90px;
+}
+footer i {
+  font-size: 3rem;
+  color: white;
 }
