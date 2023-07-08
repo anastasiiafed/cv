@@ -113,22 +113,48 @@
           </div>
         </section>
         <section class="education" id="education">
-          <h3>Education</h3>
-          <ul>
-            <li>
-              Responsive Web Design(HTML and CSS) on the freecodecamp.ogr
-              (completed, view my certificate and projects)
+          <h3>Education and courses</h3>
+          <ul class="education_list">
+            <li class="education_item">
+              Responsive Web Design(HTML and CSS) on the freecodecamp.org
+              (completed,
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/certification/anastasiia_fediarova/responsive-web-design"
+                >view</a
+              >
+              my certificate and projects)
             </li>
-            <li>
-              JavaScript Algorithms and Data Structures on the freecodecamp.ogr
-              (in progress)
+            <li class="education_item">
+              JavaScript Algorithms and Data Structures on the freecodecamp.org
+              (in the process)
             </li>
-            <li>
-              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            <li class="education_item">
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in the process)
             </li>
           </ul>
         </section>
-        <section class="code" id="code"></section>
+        <section class="code" id="code">
+          <h3>Code example</h3>
+          <pre><code>
+            function createSlideElementHtml(a) {
+              let copyOfElement = slideItem.cloneNode(true);
+            
+              //Set img
+              copyOfElement.querySelector("img").setAttribute("src", a.imageUrl);
+              copyOfElement.querySelector("h5").innerHTML = a.name;
+              copyOfElement.setAttribute("data", JSON.stringify(a));
+              return copyOfElement;
+            }
+            
+            sliderButtonLeft.addEventListener("click", () => {
+                sliderMove(true)
+            });
+            sliderButtonRight.addEventListener("click", () => {
+                sliderMove(false)
+            });
+          </code></pre>
+        </section>
         <section class="languages" id="languages">
           <h3>Languages</h3>
           <ul>

@@ -33,7 +33,7 @@ body {
   list-style-type: none;
   padding: 15px 0;
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 .header_menu_item a:hover {
   border-bottom: 2px solid #ffff00;
@@ -47,7 +47,7 @@ body {
 .about_me {
   display: flex;
   margin: auto;
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
   background-color: #ffff19;
   height: 250px;
@@ -58,8 +58,11 @@ body {
 .about_me:hover,
 .about_full_text:hover,
 .skills:hover,
-.projects:hover {
-  border-radius: 55px;
+.projects:hover,
+.education:hover,
+.languages:hover,
+.code:hover {
+  border-radius: 35px;
   transition: 1s;
   cursor: pointer;
 }
@@ -135,6 +138,7 @@ p {
   max-width: 400px;
   border-radius: 10px;
 }
+
 .projects {
   height: 590px;
   max-width: 800px;
@@ -172,4 +176,59 @@ p {
 }
 .projects_item h4 {
   margin: 0 auto;
+}
+.education {
+  height: 250px;
+  max-width: 800px;
+  color: white;
+  font-size: 1.8rem;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #7d00ff;
+  align-items: center;
+}
+.education h3 {
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+.education_item {
+  list-style-type: none;
+  width: 95%;
+  border-bottom: 1px solid white;
+  margin-bottom: 15px;
+}
+.education_item a {
+  color: #b2b200;
+  text-decoration: none;
+}
+.education_item a:hover {
+  color: #ffff00;
+}
+.code {
+  height: 380px;
+  max-width: 800px;
+  color: white;
+  font-size: 1.8rem;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #5700b2;
+  align-items: center;
+}
+.code h3 {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+.code pre {
+  width: 90%;
+  border-bottom: 1px solid white;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  color: #5700b2;
+  font-size: 1.2rem;
 }
