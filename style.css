@@ -16,6 +16,7 @@ body {
   margin: auto;
   width: 100%;
 }
+
 .header {
   position: fixed;
   margin: 0 auto;
@@ -28,6 +29,7 @@ body {
   gap: 40px;
   align-items: center;
   margin: auto;
+  padding: 0;
 }
 .header_menu nav {
   width: 100%;
