@@ -87,6 +87,13 @@ h4 {
 p {
   font-size: 1.8rem;
 }
+h5 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
 
 .about_me_text {
   padding-left: 10px;
