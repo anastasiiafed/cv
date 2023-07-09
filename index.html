@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/.apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/66fbf38085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav>
+          <ul class="header_menu">
+            <li class="header_menu_item"><a href="#skills">Skills</a></li>
+            <li class="header_menu_item"><a href="#projects">Projects</a></li>
+            <li class="header_menu_item"><a href="#education">Education</a></li>
+            <li class="header_menu_item"><a href="#code">Code</a></li>
+            <li class="header_menu_item"><a href="#languages">Languages</a></li>
+            <li class="header_menu_item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main_wrapper">
+        <section class="about_me">
+          <div class="about_me_text">
+            <h2>Anastasiia Fediarova</h2>
+            <h1>Front-End Developer</h1>
+          </div>
+          <img src="./IMG_8733.JPG" alt="photo" class="about_img" />
+        </section>
+        <section class="about_full_text">
+          <h5>
+            Hi! My name is Anastasiia and I'm a Front-end developer based in
+            Kyiv, Ukraine.
+          </h5>
+          <p>
+            I have knowledge of semantic layout in HTML, CSS and JavaScript. I
+            have experience in marketing and branding, so I have a good
+            understanding of how to make a product user-friendly.
+          </p>
+          <p>
+            Likewise, I also have extensive experience working in teams and
+            managing them.
+          </p>
+          <p>
+            I look forward to working on either a small startup or a large
+            multi-year project.
+          </p>
+        </section>
+        <section class="skills" id="skills">
+          <div class="animation"><h3>Hard skills</h3></div>
+          <ul>
+            <li>&#10004; HTML</li>
+            <li>&#10004; CSS</li>
+            <li>&#10004; JavaScript</li>
+            <li>&#10004; Figma</li>
+            <li>&#10004; Photoshop</li>
+            <li>&#10004; Git</li>
+          </ul>
+        </section>
+        <h3 class="projects_h">My projects</h3>
+        <section class="projects" id="projects">
+          <div class="projects_item project_shelter">
+            <img src="./image_2023-07-08_20-18-30.png" alt="shelter_img" />
+            <div class="project_text">
+              <h4>Shelter</h4>
+              <p>Project written using HTML, CSS, JS</p>
+              <a
+                class="project_button"
+                target="_blank"
+                href="https://rolling-scopes-school.github.io/anastasiiafed-JSFE2023Q1/shelter/"
+                >See project</a
+              >
+            </div>
+          </div>
+          <div class="projects_item project_keyboard">
+            <div class="project_text">
+              <h4>Virtual keyboard</h4>
+              <p>Project written with only JavaScript</p>
+              <a
+                href="https://anastasiiafed.github.io/Virtual-Keyboard/"
+                class="project_button"
+                target="_blank"
+                >See project</a
+              >
+            </div>
+            <img src="./image_2023-07-08_20-23-43.png" alt="keyboard_img" />
+          </div>
+        </section>
+        <section class="education" id="education">
+          <h3>Education and courses</h3>
+          <ul class="education_list">
+            <li class="education_item">
+              Responsive Web Design(HTML and CSS) on the freecodecamp.org
+              (completed,
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/certification/anastasiia_fediarova/responsive-web-design"
+                >view</a
+              >
+              my certificate and projects)
+            </li>
+            <li class="education_item">
+              JavaScript Algorithms and Data Structures on the freecodecamp.org
+              (in the process)
+            </li>
+            <li class="education_item">
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in the process)
+            </li>
+          </ul>
+        </section>
+        <section class="code" id="code">
+          <h3>Code example</h3>
+          <pre><code>
+            function createSlideElementHtml(a) {
+              let copyOfElement = slideItem.cloneNode(true);
+            
+              //Set img
+              copyOfElement.querySelector("img").setAttribute("src", a.imageUrl);
+              copyOfElement.querySelector("h5").innerHTML = a.name;
+              copyOfElement.setAttribute("data", JSON.stringify(a));
+              return copyOfElement;
+            }
+            
+            sliderButtonLeft.addEventListener("click", () => {
+                sliderMove(true)
+            });
+            sliderButtonRight.addEventListener("click", () => {
+                sliderMove(false)
+            });
+          </code></pre>
+        </section>
+        <section class="languages" id="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>
+              <hr class="languages_native" />
+              Ukrainian
+              <p>Native</p>
+            </li>
+            <li>
+              <hr class="languages_native" />
+              Russian
+              <p>Native</p>
+            </li>
+            <li>
+              <hr class="languages_intermediate" />
+              English
+              <p>Upper - Intermediate</p>
+            </li>
+            <li>
+              <hr class="languages_begginer" />
+              Chinese
+              <p>Beginner</p>
+            </li>
+          </ul>
+        </section>
+        <section class="contacts" id="contacts">
+          <h3>Contacts</h3>
+          <ul>
+            <li>
+              <a href="mailto:myemail@mail.ru">
+                <i class="fa-solid fa-envelope"></i>Email</a
+              >
+            </li>
+            <li>
+              <a href="https://t.me/afediarova" target="_blank"
+                ><i class="fa-brands fa-telegram"></i>Telegram</a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="link_rs_school">
+        <p>2023 by Anastasiia Fediarova</p>
+        <a href="https://github.com/anastasiiafed" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://rs.school/js" target="_blank"
+          ><img src="./rs_school_js.svg" alt=""
+        /></a>
+      </footer>
+    </div>
+  </body>
+</html>
